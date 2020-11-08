@@ -1,6 +1,6 @@
 {
     "name": "m4rku5/clockify",
-    "description": "A tool to manage docker-compose files",
+    "description": "A API wrapper for clockify.me",
     "keywords": [
         "clockify"
     ],
@@ -15,7 +15,7 @@
         }
     ],
     "require": {
-        "php": "^7.4",
+        "php": "^7.1",
         "symfony/yaml": "*"
     },
     "require-dev": {},
