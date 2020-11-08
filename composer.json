@@ -1,0 +1,34 @@
+{
+    "name": "m4rku5/clockify",
+    "description": "A tool to manage docker-compose files",
+    "keywords": [
+        "clockify"
+    ],
+    "homepage": "https://github.com/M4RKU5-C0D3/clockify",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Markus Martens",
+            "email": "markus.martens@gmx.net",
+            "homepage": "https://github.com/M4RKU5-C0D3",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.4",
+        "symfony/yaml": "*"
+    },
+    "require-dev": {},
+    "autoload": {
+        "psr-4": {
+            "m4rku5\\Clockify\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {}
+    },
+    "scripts": {},
+    "config": {
+        "sort-packages": true
+    }
+}
