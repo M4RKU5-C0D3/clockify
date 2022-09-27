@@ -25,7 +25,7 @@ class Clockify
             CURLOPT_HEADER         => false,
             CURLOPT_HTTPHEADER     => [
                 "X-Api-Key: " . $this->apikey,
-                "Content-Type: application/json",
+                "Content-Type: application/json; charset=utf-8",
             ],
         ], $options));
         $exec = curl_exec($ch);
