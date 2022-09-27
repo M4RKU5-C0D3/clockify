@@ -56,4 +56,16 @@ class Clockify
     {
         return $this->GET('user');
     }
+
+    /**
+     * Get all time entries for today for active workspace of current user
+     *
+     * @return array
+     */
+    public function today()
+    {
+        $user = $this->user();
+
+        return $this->GET('workspaces/' . $user['activeWorkspace'] . '/user/' . $user['id'] . '/time-entries?start=' . strftime('%FT00:00:00.000Z'));
+    }
 }
